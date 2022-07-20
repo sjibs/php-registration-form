@@ -1,0 +1,71 @@
+.centered-box {
+    font-family: "Bahnschrift";
+  margin: auto;
+  width: fit-content;
+  color: gray;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 2.5px 2.5px 4px 4px #00000022;
+}
+.centered-box h2{
+    color: white;
+    padding:20px 15px 10px 20px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: chocolate
+}
+.error-message{
+    color: white;
+    background-color:lightcoral;
+    padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+  padding:0px 15px 15px 15px;
+    grid-template-columns: auto auto auto auto;
+
+}
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  justify-content:center;
+  width: 300px;
+  padding:7px 7px 7px 7px;
+  display: inline-block;
+ 
+}
+input{
+  border:2px solid gray;
+  border-radius: 15px;
+  padding:4px;
+  margin:3px 0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+input[type=submit]{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  justify-content:center;
+  width: 100%;
+  border: 2px solid chocolate;
+  font-size: large;
+  color: chocolate;
+  padding:7px 7px 7px 7px;
+   font-family: "Bahnschrift";
+  display: inline-block;
+}
+
+input[type=submit]:hover{
+  background-color: lightgrey;
+}
+table{
+  margin: 10px 10px 10px 10px;
+  outline:solid chocolate;
+  border-radius: 0px 0px 15px 15px;
+}
+th{
+  padding:10px;
+}
+.table-header{
+  color:chocolate;
+  border-bottom:2px solid chocolate
+}
